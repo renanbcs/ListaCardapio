@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"  android:stretchColumns="*"
+    tools:context="com.example.renan.atividade2.DetalhesActivity">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/idLabel"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center"
+        android:text="ID: "/>
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tipoLabel"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center"
+        android:text="Tipo: "/>
+
+    <TextView
+        android:id="@+id/tipoTextView"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/disponibilidadeLabel"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Disponibilidade: "
+            android:textColor="#000000" />
+
+        <TextView
+        android:id="@+id/disponibilidadeTextView"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/descricaoLabel"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="18dip"
+            android:text="Descrição: "
+            android:textColor="#000000" />
+
+        <TextView
+        android:id="@+id/descricaoTextView"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+    <TextView
+        android:id="@+id/precoLabel"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center"
+        android:text="Preço: "/>
+
+    <TextView
+        android:id="@+id/precoTextView"
+        android:layout_weight="1"
+        android:textColor="#000000"
+        android:padding="18dip"
+        android:gravity="center"/>
+
+    </TableRow>
+
+</TableLayout>
